@@ -10,7 +10,12 @@ public class prime {
                 }
             }
         }
-return c; 
+        if (c==2){
+            return 1;
+        }
+        else{
+            return 0;
+        }
     }
   public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
